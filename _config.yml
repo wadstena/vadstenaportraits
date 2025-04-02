@@ -23,7 +23,7 @@ baseurl: ""
 production_url: "https://wadstena.github.io/vadstenaportraits"
 
 # Set source-code paths based on environment
-source-code: "{{ site.environment == 'production' ? 'https://github.com/wadstena/collectionbuilder-light' : 'file:///Users/jimlofgren/Documents/collectionbuilder-light' }}"
+source-code: "{{ site.environment == 'production' ? 'https://wadstena.github.io/vadstenaportraits' : 'file:///Users/jimlofgren/Documents/collectionbuilder-light' }}"
 
 ##########
 # SITE SETTINGS
