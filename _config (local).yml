@@ -16,8 +16,8 @@
 # location of code, the full url to your github repository
 
 # Default settings (local development)
-# url: "http://localhost:4000"
-# baseurl: ""  # No baseurl for local dev
+url: "http://localhost:4000"
+baseurl: ""  # No baseurl for local dev
 
 # Conditional for GitHub Pages
 production:
@@ -25,7 +25,7 @@ production:
   baseurl: "/vadstenaportraits"  # Base URL for GitHub Pages
 
 # Set source-code paths based on environment
-# source-code: "{{ site.environment == 'production' ? 'https://wadstena.github.io/vadstenaportraits' : 'file:///Users/jimlofgren/Documents/collectionbuilder-light' }}"
+source-code: "{{ site.environment == 'production' ? 'https://wadstena.github.io/vadstenaportraits' : 'file:///Users/jimlofgren/Documents/collectionbuilder-light' }}"
 
 
 ##########
