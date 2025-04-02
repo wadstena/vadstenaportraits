@@ -20,7 +20,7 @@ url: "http://localhost:4000"
 baseurl: ""
 
 # If running in production (GitHub Pages), use the GitHub Pages URL
-production_url: "https://wadstena.github.io/collectionbuilder-light"
+production_url: "https://wadstena.github.io/vadstenaportraits"
 
 # Set source-code paths based on environment
 source-code: "{{ site.environment == 'production' ? 'https://github.com/wadstena/collectionbuilder-light' : 'file:///Users/jimlofgren/Documents/collectionbuilder-light' }}"
