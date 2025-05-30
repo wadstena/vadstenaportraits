@@ -3,6 +3,11 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-.slim-banner {
-  background-color: #f5f5f5;   /* ← change to your desired hex */
+/* ———————————————————————————
+   Header-area background on every page
+—————————————————————————————— */
+main > .container:first-of-type {
+  background-color: #f5f5f5;  /* ← your new header bg */
+  padding: 1rem 1.5rem;       /* optionally tweak space */
+  border-radius: 0.25rem;     /* optional, makes it pop */
 }
